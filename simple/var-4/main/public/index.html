@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple app</title>
+    <script>
+        
+
+            let load = async () => {
+                try{
+                    let response = await fetch(`/profile.json`)
+
+                }
+                catch(err){
+                    console.warn(err)
+                }
+            }
+
+            let convert = () => {
+                
+            }
+    </script>
+</head>
+<body>
+
+    <div id="content"></div>
+    <input type="button" value="convert" id="convert" onclick="convert()" />
+</body>
+</html>
